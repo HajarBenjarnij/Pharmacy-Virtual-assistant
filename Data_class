@@ -1,0 +1,28 @@
+import requests
+from bs4 import BeautifulSoup
+import numpy as np
+import re
+import pandas as pd
+class Extraction:
+    def __init__(self,quartier):
+        self.quartier=quartier
+    def donnees(self):
+        url='https://lematin.ma/pharmacie-garde-casablanca/{}.html'.format(self.quartier)
+        reponse_phar=requests.get(url)
+        soup_phar=BeautifulSoup(reponse_phar.content,"lxml")
+        pharmacies=soup_phar.find_all('div',attrs={'class':"pharmacie"})
+        pharmacies_noms=[]
+        Pharmacie_adresses=[]
+        N_telephone=[]
+        get_position=[]
+        for e in pharmacies:
+            pharmacies_noms.append(e.find('h5').text)
+            adress=re.split(r"- Tél",e.find('p').text)
+            Pharmacie_adresses.append(adress[0])
+            digit=re.split(r"\:",e.find('p').text)[-1]
+            digit=re.split(r"\s+",digit)
+            N_telephone.append(digit[1])
+        d = {'pharmacie': pharmacies_noms, 'adress': Pharmacie_adresses,'telephone':N_telephone}
+        dataframe=pd.DataFrame(d)
+        return dataframe
+

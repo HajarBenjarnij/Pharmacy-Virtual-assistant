@@ -1,0 +1,107 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay","Hi can you help me please","","Hi everyone"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "More",
+     "patterns": ["Please help me to find the pharmacies in garde","I would know the list of pharmacies in garde","pharmacies in garde today","I would have the list of pharmacies!", "Pharmacies", "what are pharmacies in garde to day?","garde today","garde"],
+     "responses": ["Please more information about your street in Casablanca!"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day!", "Bye! Come back again"]
+    },
+   {"tag": "al-fida",
+    "patterns": ["al-fida","Al fida", "Please I would to know pharmacies in garde today in Al fida", "Pharmacies in garde in Al fida","Al fida pharmacies in garde","adress of pharmacies in garde in Al fida today?"],
+    "responses": ["al-fida"]
+   },
+   {"tag": "sidi-moumen",
+    "patterns": ["Sidi-moumen","sidi moumen","Sidi moumen", "Please I would to know pharmacies in garde today in Sidi moumen ", "Pharmacies in garde in Sidi moumen","Sidi moumen pharmacies in garde","adress of pharmacies in garde in Sidi moumen today?"],
+    "responses": ["sidi-moumen"]
+    },
+    {"tag": "ain-chock",
+    "patterns": ["ain-chock","Ain chock", "Please I would to know pharmacies in garde today in Ain chock ", "Pharmacies in garde in Ain chock","Ain chock pharmacies in garde","adress of pharmacies in garde in Ain chock today?"],
+    "responses": ["Ain chock"]
+    },
+    {"tag": "mers-sultan",
+    "patterns": ["mers-sultan","mers sultan", "Please I would to know pharmacies in garde today in mers sultan ", "Pharmacies in garde in mers sultan","mers sultan pharmacies in garde","adress of pharmacies in garde in mers sultan today?"],
+    "responses": ["mers sultan"]
+    },
+    {"tag": "sidi-bernoussi",
+    "patterns": ["sidi-bernoussi","sidi bernoussi", "Please I would to know pharmacies in garde today in sidi bernoussi ", "Pharmacies in garde in sidi bernoussi","sidi bernoussi pharmacies in garde","adress of pharmacies in garde in sidi bernoussi today?"],
+    "responses": ["sidi bernoussi"]
+    },
+    {"tag": "ain-sebaa",
+    "patterns": ["ain-sebaa","ain sebaa", "Please I would to know pharmacies in garde today in ain sebaa ", "Pharmacies in garde in ain sebaa","ain sebaa pharmacies in garde","adress of pharmacies in garde in ain sebaa today?"],
+    "responses": ["ain sebaa"]
+    },
+    {"tag": "lissasfa",
+    "patterns": ["lissasfa","lissasfa", "Please I would to know pharmacies in garde today in lissasfa ", "Pharmacies in garde in lissasfa","lissasfa pharmacies in garde","adress of pharmacies in garde in lissasfa today?"],
+    "responses": ["lissasfa"]
+    },
+    {"tag": "bourgogne",
+    "patterns": ["bourgogne","Bourgogne", "Please I would to know pharmacies in garde today in bourgogne ", "Pharmacies in garde in bourgogne","bourgogne pharmacies in garde","adress of pharmacies in garde in bourgogne today?"],
+    "responses": ["bourgogne"]
+    },
+    {"tag": "polo",
+    "patterns": ["polo","Polo", "Please I would to know pharmacies in garde today in polo ", "Pharmacies in garde in polo","polo pharmacies in garde","adress of pharmacies in garde in polo today?"],
+    "responses": ["polo"]
+    },
+    {"tag": "sidi-maarouf",
+    "patterns": ["sidi-maarouf","sidi maarouf", "Please I would to know pharmacies in garde today in sidi maarouf ", "Pharmacies in garde in sidi maarouf","sidi maarouf pharmacies in garde","adress of pharmacies in garde in sidi maarouf today?"],
+    "responses": ["sidi maarouf"]
+    },
+    {"tag": "roches-noires",
+    "patterns": ["roches-noires","roches noires", "Please I would to know pharmacies in garde today in roches noires ", "Pharmacies in garde in roches noires","roches noires pharmacies in garde","adress of pharmacies in garde in roches noires today?"],
+    "responses": ["roches noires"]
+    },
+    {"tag": "maarif",
+    "patterns": ["maarif","maarif", "Please I would to know pharmacies in garde today in maarif ", "Pharmacies in garde in maarif","maarif pharmacies in garde","adress of pharmacies in garde in maarif today?"],
+    "responses": ["maarif"]
+    },
+    {"tag": "al-azhar-panorama",
+    "patterns": ["al-azhar-panorama","al azhar panorama", "Please I would to know pharmacies in garde today in al azhar panorama ", "Pharmacies in garde in al azhar panorama","al azhar panorama pharmacies in garde","adress of pharmacies in garde in al azhar panorama today?"],
+    "responses": ["al azhar panorama"]
+    },
+    {"tag": "quartier-des-hopitaux",
+    "patterns": ["quartier-des-hopitaux","quartier des hopitaux", "Please I would to know pharmacies in garde today in quartier des hopitaux ", "Pharmacies in garde in quartier des hopitaux","quartier des hopitaux pharmacies in garde","adress of pharmacies in garde in quartier des hopitaux today?"],
+    "responses": ["quartier des hopitaux"]
+    },
+    {"tag": "hay-mohammadi",
+    "patterns": ["hay-mohammadi","hay mohammadi", "Please I would to know pharmacies in garde today in hay mohammadi ", "Pharmacies in garde in hay mohammadi","hay mohammadi pharmacies in garde","adress of pharmacies in garde in hay mohammadi today?"],
+    "responses": ["hay mohammadi"]
+    },
+    {"tag": "annasi",
+    "patterns": ["annasi","annasi", "Please I would to know pharmacies in garde today in annasi ", "Pharmacies in garde in annasi","annasi pharmacies in garde","adress of pharmacies in garde in annasi today?"],
+    "responses": ["annasi"]
+    },
+    {"tag": "sidi-othmane",
+    "patterns": ["sidi-othmane","sidi othmane", "Please I would to know pharmacies in garde today in sidi othmane ", "Pharmacies in garde in sidi othmane","sidi othmane pharmacies in garde","adress of pharmacies in garde in sidi othmane today?"],
+    "responses": ["sidi othmane"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help","Thanks for your help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I.m Joana, your bot assistant", "I'm Joana, an Artificial Intelligent bot"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me Joana.", "I'm Joana!", "Just call me as Joana"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you?", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {"tag": "createaccount",
+    "patterns": ["I need to create a new account", "how to open a new account", "I want to create an account", "can you create an account for me", "how to open a new account"],
+    "responses": ["You can just easily create a new account from our web site", "Just go to our web site and follow the guidelines to create a new account"]
+    },
+    {"tag": "complaint",
+    "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
+    "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+    }
+]
+}
